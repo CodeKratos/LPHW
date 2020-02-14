@@ -1,0 +1,11 @@
+L = ['Akshay', 'remember', 'you', 'are', 'number', 1]
+print(L)
+L.append('Forever')
+print(L)
+L.pop(1)
+print(L)
+L.insert(3, 'the')
+L.insert(4, 'best')
+print(L)
+L.pop(6)
+L.pop(7)
