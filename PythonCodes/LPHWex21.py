@@ -7,7 +7,7 @@ def sub(a,b):
     print(f"substractig {a} and {b}")
     return a-b
 def mul(a,b):
-    print(a,b)
+    print(f"multiplying {a} and {b}")
     return a*b
 def div(a,b):
     print(f"dividing {a} and {b}")

@@ -1,0 +1,58 @@
+Page 96 Exercise	22.	What	Do	You	Know	So	Far ?
+
+This is the documentation of what I have learned so far in this book : Learn Pyton The Hard Way 
+
+~~~~~~~~~~~Keyboard Shortcuts for Visual Studio~~~~~~~~~~~~~
+ Format Document : Shift + ctrl + P
+ Code Runner     : ctrl + alt + n
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--------------List of symbols, syntaxs and keywords that have been used do far-------------------
+
+
+#(hash)             : used for the single line comment
+f""                 : formatted string, used for string that can be dynamicall formatted with data
+print()             : for the printing statements 
+{variable}          : used in formatted string to define the location where the dynamoic content will be printed
+format()            : returns the formatted version of the string
+                        Works like S.format() will retursn S (formatted version with substitutions from args and kwargs)
+args                : 
+kargs               :
+""                  : quote symbols, strings is puted inside quote symbols
+''                  : same as other quote symbol, i need to find out if there is ay difference ir it is just for the beauty of code
+""" """             : multiline print statement
+end''               : in the end (it doesn't even matters) puts the symbol of your choice (in the end of the statement)
+                      {btw it does actually doesn't matters you tried so hard and got so far, success is your only option failure is not}
+input()             : gets input, sweetest way of getting user input on the console so far in all the languages that I have studied.
+input('')           : promts the statement before you enter, very convinient while running codes. 
+                      Atlests you know what input you are going to enter in the command promt
+argv                : gets argumenst while entering the command prompt and distributes them among the variables defined in below lines
+                      everything that you enter is a argument. even the name if the scripts and will be distributed among the variables sequentially
+from                : just like the usual english meaning, so far I have used it for telling the location of the header file
+sys                 : name of the header file (library)
+import              : tells the computer that following package has to be imported
+open(filename)      : opens the file(then you have to close it also)
+filename.close()    : closes the file 'filename'
+.read()             : reads the content of the variable that is toring the open file data
+.truncate()         : erases all the data of an opened file (use it with the varable thta hold the data of open file)
+.write()            : writes the provided parameters ('statement in parantheses') in the file
+r                   :||  r- read, w-write (truncating existing file), a- append
+w                   :|| =--> The most commonly-used values of mode are 'r' for reading, 'w' for writing (truncating the file if it already exists), and 'a' for appending    
+a                   :||     default is always read
+
+os.path             :This module contains some useful functions on pathnames used for different purposes such as for merging, normalizing and retrieving path names in python .
+                      All of these functions accept either only bytes or only string objects as their parameters. 
+
+
+
+
+
+
+<<<<<<<<<<<<<<<<<<<<< Cool Things That I Like About Python >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+print(" statements " * 4)  : statement gets print 4 times   
+print(wd5+wd6)             : string 1 and 2 will get concatinate (simply like java but feels convinient)
+print( """"
+
+"""")                      : multiline print statement, just take as many lines as you want
+
