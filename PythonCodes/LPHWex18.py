@@ -21,7 +21,7 @@ def print_with_no_args():
     print("Hope is a good thing Red, and like anyother good it never dies.")
 
 print_one("Red")
-print_two("Rick","Morty")
+print_two("Rick","Morty") # function capable of handling two parameters only, will not work if passed more than 2 parame, pasisng a single parameter also gives error
 print_three("Red","Andy","Rita Hayworth")
 
 #so basically what I learned in this is how to assign functions and pass argumnets in the 

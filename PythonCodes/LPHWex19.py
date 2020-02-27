@@ -13,3 +13,5 @@ print("Enter te number of awards")
 award = input(">>>")
 
 movie(genre,name,nominations,award)
+
+# bassicaly passing user input as argumnets for the functions.
