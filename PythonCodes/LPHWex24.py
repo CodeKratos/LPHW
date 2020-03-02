@@ -1,6 +1,6 @@
 # Exercise	24.	More	Practice
 print("Let's  practice  everything")
-print('you\'d  need to know \'bout escapes with \\ that do:')
+print('you\'d  need to know \'bout escapes with \\ that do:') #escape characters
 print('\n newlines \t tabs.')
 poem =""" 
 \t the lovely world
