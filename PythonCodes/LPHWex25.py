@@ -5,22 +5,27 @@ stuff = input('>>>')
 def break_word(stuff):
     words = stuff.split(' ') # spliting the string whereever a whitespace is encountered
     #print('words:', words[0])
+    for i in words:
+        print(i)
     return words
 #sorting the word using sorted
 def sorty_word(words):
-    print('word:', words)
-    return sorted(words)
+    swords = sorted(words)
+    for i in swords:
+        print(i)
+    return sorted(swords)
 #printing the first word only
 def first_word(words):
     word = words.pop(0)
-    print(word)
+    #print(word)
+    for i in word:
+        print(i)
 #printng the last word only
 def last_word(words):
     lastWord = words.pop(-1)
     print(lastWord)
 #taking in a full sentence and returning the sorted word
-break_word(stuff)
-sentence = input('>>>')
+
 def sort_sentence(sentence):
     word = break_word(sentence)
     return sorted(word)
