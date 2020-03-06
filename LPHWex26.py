@@ -1,4 +1,5 @@
-#doomed 
+#fixed
+from sys import argv
 script, filename = argv
 
 print("How old are you?", end=' ')
@@ -11,17 +12,17 @@ weight = input()
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 
-txt = open(filename)
+txt = open(filename, 'r') #r for read - mode argument 
 
 print("Here's your file {filename}:")
-print(txt.read())
+print(txt.read()) #since whe have passed r above while opening 
 
 print("Type the filename again:")
 file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again_read())
+print(txt_again.read())
 
 
 print('Let\'s practice everything.')
