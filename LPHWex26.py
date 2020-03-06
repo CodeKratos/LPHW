@@ -14,7 +14,7 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 txt = open(filename, 'r') #r for read - mode argument 
 
-print("Here's your file {filename}:")
+print(f"Here's your file {filename}:")
 print(txt.read()) #since whe have passed r above while opening 
 
 print("Type the filename again:")
