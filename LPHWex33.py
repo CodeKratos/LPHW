@@ -2,12 +2,11 @@
 i = 0
 numbers = []
 while i < 6:
-    print(f"i at top is {i}")
+    print(f"at the top of i is {i}")
     numbers.append(i)
-    i = i+1
-    print("numbers now :", numbers)
-    print(f"at the bottom is {i}")
-
-print("The numbers:")
+    i= i+1
+    print("numbers now :",numbers)
+    print(f"at the bottom i is {i}")
+print("the numbers: ")
 for num in numbers:
     print(num)
