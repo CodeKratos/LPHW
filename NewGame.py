@@ -16,6 +16,7 @@ def bimla():
     else:
         print(" abey darta q h dekh na ....")
         bimla()
+
 def suspense(sound): #before using a function it must be defined, earlier I had defined it beneath the call so it threw an error
     print(sound) 
     time.sleep(1) 
@@ -64,6 +65,9 @@ def first_choice():
 
 
 opening()
-
+"""it is fun to create games but I shal not spend much time on the game only because I have many other tasks todo
+and in this endeavour of mastering python a lot is yet to be done
+so moving on to the next excercise
+but dont worry, someday we will make a full fledge game ;) see i just used a terminator in python"""
 
 
