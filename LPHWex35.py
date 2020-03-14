@@ -9,6 +9,7 @@ def gold_room():
         dead("man learn to type a number")
     if how_much < 50:
         print("danm nibba ! you are satisfied with life. May you find a loving, caring and cherishing wife who does not posts bikini pics on instagram")
+        exit(0)
     else:
         dead("Greed is not good")
 def bear_room():
