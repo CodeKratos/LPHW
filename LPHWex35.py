@@ -1,14 +1,14 @@
 #Brenches an dfunction
 from sys import exit
 def gold_room():
-    print("this room is full of gold take as uch as you want")
+    print("this room is full of gold take as much as you want")
     choice = input(">>>")
-    if choice == 0 or choice == 1:
+    if  "0" in choice or  "1" in choice:
         how_much = int(choice)     
     else:
         dead("man learn to type a number")
     if how_much < 50:
-        print("danm nibba ! you are satisfied with life")
+        print("danm nibba ! you are satisfied with life. May you find a loving, caring and cherishing wife who does not posts bikini pics on instagram")
     else:
         dead("Greed is not good")
 def bear_room():
@@ -19,15 +19,15 @@ def bear_room():
     while True:
         choice  = input(">>>")
         bear_moved = True
-        if choice  == "take the honey":
+        if  "take the honey" in choice:
             dead("dude come on ! bears dont share honey. you are dead now")
-        elif   choice == "taunt bear" and not bear_moved:
+        elif "taunt bear" in choice and not bear_moved:
             print("the bear moves and you an go through it")
             print("go through it !")
             
-        elif  choice == "taunt bear" and bear_moved:
+        elif "taunt bear" in choice and bear_moved:
             dead(" don't fight bears bro you dead nibba ")
-        elif choice == "open door" and bear_moved:
+        elif "open door" in choice and bear_moved:
             gold_room()
         else: 
             print("I got no idea what that means")
@@ -35,7 +35,7 @@ def bear_room():
 def juju_room():
     print(" you have came to the place of El Juju ")
     print("juju gets angry and runs towards you")
-    print("run for your life or eat your head?")
+    print("run for your life or eat your head?") #statements asks for 'run' but choice accepts 'flee'
     choice = input(">>>")
     if "flee" in choice:
         start()
@@ -57,6 +57,6 @@ def start():
     elif  "right" in choice:
         juju_room()
     else:
-        dead("Took too much time to decide")
+        dead("either walk left or right, learn to decide")
 
 start()
