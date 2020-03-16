@@ -52,4 +52,17 @@ for st, ab in list(states.items()):
     #ab = abbrev
     #print(f" {state[ab]}") not working
      
-    
+print("--"*10)
+#safely get abbreviation of a state that might not be there
+state = states.get('Texas')
+if not state:
+    print("sorry no Texas   ")
+
+#get a city with a default value
+if 'TX' in cities:
+    print("Indian texas is called Uttar Pradesh")
+else:
+    print("India does not has Texas but UP is quite similar")
+
+#city = cities.get('TX','Does not exists')
+#print(f"The city for the state 'TX' is : {city}")
