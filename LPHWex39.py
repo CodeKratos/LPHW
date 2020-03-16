@@ -36,6 +36,7 @@ print('Mizoram has: ', cities[states['Mizoram']])
 print('#####'*4)
 for state, abbrev in list(states.items()):
     print(f"{state} is abbreviated {abbrev}")
+    print(f" and it has a beautiful city called {cities[abbrev]}") # working in this loop then why not working in the loop below
 
 #doing same for cities
 print("%%%%%%%"*3)
@@ -44,9 +45,10 @@ for abbrev, cities in list(cities.items()):
 
 #now doing both at the same time
 print('---'*40)
-for state, abbrev in list(states.items()):
+for st, ab in list(states.items()):
     #print(f"and	has	city	{cities[abbrev]}") need a little help on this one from internet
-    print(f"{state} is abbreviated as {abbrev}")
+    print(f"{st} is abbreviated as {ab}")
+    #print(f" and it has a beautiful city called {cities[ab]}") again not working
     #ab = abbrev
     #print(f" {state[ab]}") not working
      
