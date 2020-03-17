@@ -1,5 +1,6 @@
 #dictionaries
 #creating a mapping of the state to abbreviation
+from operator import itemgetter
 states = {
     'Uttar Pradesh' : 'UP',
     'Madhye Pradesh': 'MP',
@@ -66,3 +67,7 @@ else:
 
 #city = cities.get('TX','Does not exists')
 #print(f"The city for the state 'TX' is : {city}")
+
+def getList(cities):
+    return list(cities)
+    #print(" f", list(cities)) should print this return data in some other function 
